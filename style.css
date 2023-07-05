@@ -50,6 +50,7 @@
   background-image: url('images/shapes/Frame\ 58.jpg');
   background-position: center;
   background-size: cover;
+  
 }
 .about-img{
   width: 50%;
@@ -73,7 +74,7 @@
 /* recipies style */
 .Recipies-area{
   padding: 5%;
-  background-color: #a09999;
+  background-color: #eae4e4;
 }
 .title{
   text-align: center;
@@ -118,4 +119,45 @@
 }
 .rec-text p{
   font-size: 20px;
+}
+
+/* price-area */
+.price-area{
+  padding: 5% 0;
+  background-color: #eae4e4;
+  
+}
+.prices{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 5px 5px 2px #fff;
+  background-color: #fff;
+  margin: 0 5% ;
+  padding: 30px;
+  border-radius: 10px;
+}
+.single-price h1{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.single-price p{}
+
+/* footer */
+footer{
+  background-color: #111;
+}
+.eat{
+  text-align: center;
+  padding: 100px;
+
+}
+.eat h2{
+color: #fff;
+}
+.eat h2 span{
+  color: orange;
+}
+.eat p{
+  color: #fff;
+  margin-top: 10px;
 }
