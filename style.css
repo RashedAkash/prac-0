@@ -8,6 +8,9 @@
   padding-top: 5%;
   background-image: url(images/shapes/Frame\ 57.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
 }
 .hero-text{
   width: 50%;
@@ -37,4 +40,32 @@
 }
 .hero-img img{
   width: 80%;
+}
+
+/* about-area */
+.about-area{
+  display: flex;
+  padding-left: 5%;
+  padding-top: 5%;
+  background-image: url('images/shapes/Frame\ 58.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-img{
+  width: 50%;
+}
+.about-img img{
+  width: 80%;
+}
+.about-text{
+  width: 50%;
+}
+.about-text h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.about-text p{
+  width: 75%;
+  line-height: 25px;
+  margin-bottom: 30px;
 }
