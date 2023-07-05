@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Hero-area{
+  display: flex;
+  padding-left: 5%;
+  padding-top: 5%;
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+.hero-text{
+  width: 50%;
+}
+.hero-text h1{
+  font-size: 50px;
+}
+.hero-text h1 span{
+  color: orange;
+}
+.hero-text p{
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+.link-btn{
+  text-decoration: none;
+  background-image: linear-gradient(orange,red);
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+.hero-img{
+  width: 50%;
+}
+.hero-img img{
+  width: 80%;
+}
